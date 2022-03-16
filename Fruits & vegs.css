@@ -1,0 +1,495 @@
+body {
+    background-image: ul("https://th.bing.com/th/id/OIP.gw8o4YZshHpK854UOl_75wHaE6?pid=ImgDet&rs=1");
+    background-color: rgb(245,245,245);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: "cursive";
+    
+}
+
+.header {
+    overflow: hidden;
+    background-color: rgb(13, 170, 97);
+    padding: 18px 50px 18px;
+    border-radius: 5px;
+    box-shadow:  0 8px 20px 0 rgba(0,0,0,0.3);
+    align-items: center;
+}
+
+.header a {
+    float: left;
+    color: rgb(253, 251, 251, 0.8);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
+  
+.header a:hover {
+    background-color: rgb(172, 159, 159, 0.5);
+    
+}
+
+.header a.active-header {
+    color: rgb(253, 251, 251, 0.8);
+    
+}
+
+.header-right {
+    float: right;
+    padding: 5px;
+}
+
+
+.slideshow-container {
+    overflow: hidden;
+    height: 350px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 0px;
+    box-shadow:  0 8px 20px 0 rgba(0,0,0,0.2);
+}
+
+.slide-wrapper {
+    width: 6500px;
+    animation: slide 25s infinite;
+}
+
+.mySlides-fade{
+    margin-top: 0px;
+    float: left;
+    height: 500px;
+    width: 1500px;
+}
+
+@keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -1500px;}
+    50% {margin-left: -1500px;}
+    60% {margin-left: -3000px;}
+    70% {margin-left: -3000px;}
+    80% {margin-left: -4500px;}
+    90% {margin-left: -4500px;}
+}
+
+
+.slideshow-container p {
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    font-weight: bold;
+    background: transparent;
+    color: rgb(13, 170, 97, 0.8);
+   
+    
+}
+
+.fun-facts-container {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin: 50px 25px 50px;
+    
+}
+
+#Apple {
+   /* grid-row-start: 1;
+    grid-column-end: 1;*/
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow:  0 8px 20px 0 rgba(0,0,0,0.2);
+
+}
+
+#Pear {
+    /*grid-row-start: 1;
+    grid-column-end: 2;*/
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow:  0 8px 20px 0 rgba(0,0,0,0.2);
+}
+
+#Banana {
+   /* grid-row-start: 2;
+    grid-column-end: 1;*/
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow:  0 8px 20px 0 rgba(0,0,0,0.2);
+}
+
+#Coconut {
+   /* grid-row-start: 2;
+    grid-column-end: 2;*/
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow:  0 8px 20px 0 rgba(0,0,0,0.2);
+}
+
+.fruit-names {
+    font-weight: bol;
+    font-size: 22px;
+}
+
+.footer {
+    display: grid;
+    column-gap: 0;
+    grid-template-columns: auto;
+    background-color: rgb(13, 170, 97);
+    padding: 18px 50px 18px;
+    border-radius: 5px;
+    box-shadow:  0 8px 20px 0 rgba(0,0,0,0.3);
+    align-items: center;
+    line-height: 25px;
+}
+
+.bio {
+    grid-column-end: 1;
+    margin-right: 0;
+    align-items: center;
+}
+
+.ceo-pic {
+    border-radius: 50px;
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2);
+    float: left;
+    margin-top: 8px;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px; 
+    align-items: center;
+}
+
+.name {
+    font-size: 20px;
+    color: rgba(253, 251, 251, 0.8);
+    margin-bottom: 0;
+
+}
+
+.position {
+    font-size: 15px;
+    color: rgba(253, 251, 251, 0.8);
+    margin-top: 0;
+}
+
+.contacts  {
+    grid-column-end: 2;
+    color: rgb(253, 251, 251, 0.8);
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.contacts a:hover {
+    color: rgb(43, 147, 189);
+}
+
+.phone-number {
+    padding-bottom: 0;
+}
+
+.fa {  
+    padding: 20px;  
+    text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+}  
+
+.fa-instagram {  
+    color: rgb(253, 251, 251, 0.8); 
+    padding-top: 0; 
+}
+
+.fa-phone {
+    color: rgb(253, 251, 251, 0.8);
+}
+
+
+
+
+
+/*Garden Style*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav h4 {
+    color: #818181;
+    padding: 8px 8px 8px 32px;
+    font-size: 25px;
+    display: block;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    grid-gap: 5px;
+    box-shadow:  0 8px 20px 0 rgba(0,0,0,0.2);
+    margin: 20px 10px;
+    
+}
+
+.main-cont {
+    border-radius: 5px;
+    box-shadow:  0 8px 20px 0 rgba(0,0,0,0.2);
+    object-fit: cover;
+}
+
+.main-cont img {
+    width: auto;
+    height: fit-content;
+
+}
+
+.right-scroll-bar {
+    
+    padding: 10px;
+    overflow-y:hidden;
+    overflow-x: hidden;
+    border-radius: 8px;
+    box-shadow:  0 8px 20px 0 rgba(0,0,0,0.2);
+    
+}
+
+
+.right-scroll-bar img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+/*Table Style*/
+
+body {
+    margin: 0;
+}
+
+.parent-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template: 80px repeat(2, 1fr) 120px / repeat(4, 1fr); 
+    column-gap: 20px;
+    row-gap: 30px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.parent-wrapper div {
+    padding: 10px;
+}
+
+.headr {
+    overflow: hidden;
+    background-color: rgb(13, 170, 97);
+    padding: 18px 50px 18px;
+    border-radius: 5px;
+    box-shadow:  0 8px 20px 0 rgba(0,0,0,0.3);
+    align-items: center;
+    grid-column: 1 / span 4;
+}
+
+.headr a {
+    float: left;
+    color: rgb(253, 251, 251, 0.8);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.headr a.logo {
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
+  
+.headr a:hover {
+    background-color: rgb(172, 159, 159, 0.5);
+    
+}
+
+.headr a.active-header {
+    color: rgb(253, 251, 251, 0.8);
+    
+}
+
+.header-right {
+    float: right;
+    padding: 5px;
+}
+
+.farmer {
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 2;
+
+}
+
+.farmer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-us-big {
+    grid-column: 3 / span 2;
+    grid-row: 2 / span 2;
+}
+
+.form-side {
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 2;
+    align-items: center;
+    
+}
+
+.details {
+    grid-column: 4 / span 1;
+    grid-row: 2 / span 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footr {
+    grid-column: 1 / span 4;
+    grid-row: 4;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    background-color: rgb(13, 170, 97);
+    border-radius: 5px;
+    box-shadow:  0 8px 20px 0 rgba(0,0,0,0.3);
+    align-items: stretch;
+    
+}
+
+.bio {
+    margin-right: 0;
+    align-items: center;
+}
+
+.ceo-pic {
+    border-radius: 50px;
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2);
+    width: 60px;
+    height: 60px; 
+    align-items: center;
+}
+
+.name {
+    font-size: 20px;
+    color: rgba(253, 251, 251, 0.8);
+
+}
+
+.position {
+    font-size: 15px;
+    color: rgba(253, 251, 251, 0.8);
+}
+
+.contacts  {
+    color: rgba(14, 0, 0, 0.8);
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.contacts a:hover {
+    color: rgb(43, 147, 189);
+}
+
+.phone-number {
+    padding-bottom: 0;
+}
+
+.fa {  
+    padding: 20px;  
+    text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+}  
+
+.fa-instagram {  
+    color: rgba(8, 8, 8, 0.8); 
+    padding-top: 0; 
+}
+
+.fa-phone {
+    color: rgba(19, 18, 18, 0.8);
+}
